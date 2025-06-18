@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia de Países y Capitales</title>
+  <link rel="stylesheet" href="creativo.css">
+</head>
+<body>
+  <header>
+    <h1>Trivia de Países y Capitales 🌍</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="gustos.html">Mis gustos</a></li>
+      <li><a href="creativo.html">Sección creativa</a></li>
+      <li><a href="musica.html">Música favorita</a></li>
+      <li><a href="../index.html">Linktree</a>
+</li>
+    </ul>
+  </nav>
+<main>
+  <section>
+    <h2 class="intro-trivia">¡Poné a prueba tus conocimientos sobre países y capitales!</h2>
+
+    <!-- Juego 1 -->
+    <div id="game1" class="game">
+      <h2>¿La capital de Australia es Sídney?</h2>
+      <a href="#incorrecto1" class="respuesta">Verdadero</a> |
+      <a href="#game2" class="respuesta">Falso</a>
+    </div>
+
+    <!-- Juego 2 -->
+    <div id="game2" class="game">
+      <h2>¿París es la capital de Francia?</h2>
+      <a href="#game3" class="respuesta">Verdadero</a> |
+      <a href="#incorrecto2" class="respuesta">Falso</a>
+    </div>
+
+    <!-- Juego 3 -->
+    <div id="game3" class="game">
+      <h2>¿La capital de Brasil es Río de Janeiro?</h2>
+      <a href="#incorrecto3" class="respuesta">Verdadero</a> |
+      <a href="#final" class="respuesta">Falso</a>
+    </div>
+
+    <!-- Final -->
+    <div id="final" class="game">
+      <h2>¡Completaste el juego! ✅</h2>
+      <p>¡Felicitaciones! 🌟</p>
+      <a href="#game1" class="respuesta">Volver a jugar</a>
+    </div>
+
+    <!-- Respuestas incorrectas -->
+    <div id="incorrecto1" class="game">
+      <h2>¡Uy! 😬</h2>
+      <p>La capital de Australia es Canberra, no Sídney.</p>
+      <a href="#game1" class="respuesta">Intentar de nuevo</a>
+    </div>
+
+    <div id="incorrecto2" class="game">
+      <h2>¡Uy! 😅</h2>
+      <p>París sí es la capital de Francia.</p>
+      <a href="#game1" class="respuesta">Intentar de nuevo</a>
+    </div>
+
+    <div id="incorrecto3" class="game">
+      <h2>¡Uy! 😬</h2>
+      <p>La capital de Brasil es Brasilia, no Río de Janeiro.</p>
+      <a href="#game1" class="respuesta">Intentar de nuevo</a>
+    </div>
+
+    <img src="banderas.png" alt="foto banderas" width="350" style="margin-top: 20px;">
+  
+  
+  </section>
+</main>
+  <footer>
+    <p>Contacto: <br>Mail: valentinapampliega@hotmail.com | Teléfono: 1150461952</p>
+  </footer>
+
+  <script>
+    window.location.hash = "#game1";
+  </script>
+</body>
+</html>

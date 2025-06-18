@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #a8edea, #fed6e3);
+    color: #05445E;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+
+  html, body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+
+  header {
+    background-color: #d4f1f9;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #189AB4;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    margin: 0 15px;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem;
+    display: block;
+  }
+
+  nav ul li a:hover {
+    background-color: #05445E;
+    border-radius: 8px;
+  }
+
+  section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+  }
+
+  footer {
+    background-color: #189AB4;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  .game {
+    display: none;
+  }
+
+  #inicio:target ~ .game,
+  .game:target {
+    display: block;
+  }
+
+  .respuesta {
+    text-decoration: none;
+    color: #189AB4;
+    font-weight: bold;
+    margin: 10px;
+    display: inline-block;
+  }
+
+  .respuesta:hover {
+    color: #05445E;
+  }
+
+  h2.intro-trivia {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #55627b;
+    margin-bottom: 2rem;
+  }
